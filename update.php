@@ -9,7 +9,7 @@
      $username = "root";
      $password = "";
      $dbname = "my_CRUD";
-     $port = 3300;
+     $port = 3306;
      $conn = mysqli_connect($servername, $username, $password, $dbname, $port);
     
      // Check connection
